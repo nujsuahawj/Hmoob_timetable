@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Bus Timetable",
+    "slug": "bus-timetable-app",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/timetableicon.png",
+    "splash": {
+      "image": "./src/assets/images/splashicon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.davituri.timetable",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": " "
+      }
+    },
+    "android": {
+      "package": "com.davituri.timetable",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": " "
+        }
+      }
+    }
+  }
+}
